@@ -26,7 +26,7 @@ class TencentspiderSpider(CrawlSpider):
         table = response.xpath('//table[@class="tablelist"]')
 
         if not table:
-            self.logger.error("###### The table which warps the jobs' list is not found. ######")
+            self.logger.error("###### The table which wraps the jobs' list is not found. ######")
 
         for tr in table.xpath('.//tr[@class="even"] | .//tr[@class="odd"]'):
             item = TencentspiderItem()
