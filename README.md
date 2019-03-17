@@ -5,8 +5,13 @@
 
 + This spider base on Scrapy.
 + This spider is build for crawling the jobs of the tencent company. 
-+ This scrapy spider can cralw the jobs's information,contain the job title,the job category,the job duties,the job requirement,the number of hiring,the Work Location and so on.
++ This scrapy spider can cralw the jobs's information,contain the job title,the job category,the job duties,the job requirement,the number of hiring,the work location and so on.
 + The data was save as a json file.
+
+## 用法usage
++ make sure your machine is already installed Scrapy.
++ execute the command: scarpy crawl TencentSpider
++ wait,check the 'tencent_jobs.json' file,ok,done.
 
 
 
